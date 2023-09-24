@@ -1,0 +1,614 @@
+/* *{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    background-color:pink;
+}
+
+.navbar{
+    height: 80px;
+    background-color: black;
+    display: flex;
+   
+    
+}
+.navlogo {
+    height: 90px;
+    width: 900px;
+    margin-left: 0;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height:90px;
+    width: 150px;
+
+}
+/**Resume**/
+/* .nav-Rest{
+    display: flex;
+}
+.nav-resume{
+    color: white;
+    font-weight: 800;
+    height: 10px;
+    width: 11px;
+    margin-top: 1.42rem;
+    font-size: 1.3rem;
+}
+.git-logo i {
+    font-size: 50px;
+} */ 
+
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:black;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+
+} 
+
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.navbar h1{
+    margin-left: 6vmin;
+    font-size: 10vmin;
+    color: white;
+    margin-top: 6vmin;
+
+}
+.navbar h1 span{
+    color: greenyellow;
+}
+.res{
+    font-weight: 800;
+    color: white;
+}
+.navbar ul li a {
+    list-style: none;
+    text-decoration: none ;
+    font-size: 3vmin;
+    margin-top: 120px;
+    margin-left:5vmin ;
+
+}
+    
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+
+    margin-left: 100vmin;
+    margin-top: 5vmin;
+
+    
+}
+.navbar ul li {
+    margin-left: 6vmin;
+}
+.navbar ul li:hover{
+    transform: scale(1.1);
+}
+
+.content {
+    margin: 1px;
+    height: 4px;
+    margin-top: px;
+    
+    display: flex;
+    padding-top: 2vmin;
+  }
+
+.text{
+    color: white;
+
+    font-size: 9vmin;
+    margin-left: 11.5vmin;
+    margin-top: 4vmin;
+    
+
+}
+.text h2 span{
+    color: aquamarine;
+}
+
+.content .text span {
+    color: red;
+    animation: color-change 20s infinite;
+  }
+  @keyframes color-change{
+      0% {color:rgb(255, 7, 7)  }
+      10%{color:rgb(255, 7, 127) }
+      20%{color: rgb(233, 23, 188) }
+      30%{color:rgb(210, 7, 255) }
+      40%{color:rgb(93, 0, 255) }
+      50%{color:rgb(32, 7, 255) }
+      60%{color: rgb(0, 164, 253)  }
+      70%{color:rgb(7, 255, 251) }
+      80%{color:rgb(7, 255, 52) }
+      90%{color:rgb(114, 255, 7) }
+      100%{color:  rgb(255, 238, 7) }
+  }
+  
+  .guy-image{
+    margin-left: 23.9vmin;
+    font-size: 10vmin;
+}
+.guy-image img {
+    
+    width: 600px; 
+    height: auto;
+}
+/* Style the container */
+.name {
+    text-align: center;
+    margin-right: 500px;
+    overflow: hidden; /* Hide the overflowing text */
+    color: antiquewhite;
+    
+    
+    
+  }
+  
+  /* Style the name */
+  .name p {
+    font-size: 5vmin;
+    font-weight: bold;
+    margin-top:65vmin ;
+    margin-left: 13vmin;
+    margin-right: 000px;
+   
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing text */
+    border-right: 2px solid greenyellow; /* Add a blinking cursor */
+    width: 0; /* Start with zero width */
+    animation: typing 1s steps(40) forwards; /* Typing animation */
+  }
+  
+  /* Style the role (e.g., "Student") */
+  .name span {
+    font-size: 5vmin;
+    font-style: italic;
+    color:greenyellow;
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
+    from {
+      width: 20%;
+    }
+    to {
+      width: 43.25%; /* Full width */
+    }
+  }
+  
+.proj{
+    
+    color: whitesmoke;
+    font-size: 3.5vmin;
+    margin-top: 2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.down1{
+    margin-top: 1vmin;
+    width: 4vmin;
+    height: 2vmin;
+    
+
+    
+    margin-left: 94vmin;
+    cursor: pointer;
+}
+.down1:hover{
+    transform: scale(1.5);
+    
+}
+
+/**MediaQuery2Mobile**/
+@media screen and (max-width:720px){
+    header{
+        height: 110vh;
+        padding:10px;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        
+        
+    }
+    .navbar h1{
+        list-style: none;
+        font-size: 10vmin;
+        margin-top: 10%;
+        margin-right: 15%;
+    }
+    .navbar ul{
+
+       
+        
+        display: flex;
+        
+        margin-left: 0vmin;
+        
+        font-size: 1vmin;
+        margin-top: 10%;
+    }
+    .navbar ul li{
+       
+        
+        flood-color: aquamarine;
+        margin-left: 0;
+        margin-right: 4vmin;
+        
+    }
+    .navbar ul .link{
+        margin-right: 0;
+    }
+    .navbar ul li a{
+        margin: 5vmin;
+    }
+    
+    .res{
+        font-size: 3%;
+    }
+    .navbar ul li:hover{
+    transform: scale(1.1);
+    }
+    .navbar ul .git{
+        width:5vmin ;
+        height:5vmin ;
+    }
+    
+    .content {
+        
+        display: flex;
+        flex-direction: column;
+        margin-right: 3px;
+        align-items: center;
+        
+    }
+    .content .text{
+        font-size: 7vmin;
+    }
+    .content .text span {
+        color: red;
+        animation: color-change 20s infinite;
+      }
+      @keyframes color-change{
+          0% {color:rgb(255, 7, 7)  }
+          10%{color:rgb(255, 7, 127) }
+          20%{color: rgb(233, 23, 188) }
+          30%{color:rgb(210, 7, 255) }
+          40%{color:rgb(93, 0, 255) }
+          50%{color:rgb(32, 7, 255) }
+          60%{color: rgb(0, 164, 253)  }
+          70%{color:rgb(7, 255, 251) }
+          80%{color:rgb(7, 255, 52) }
+          90%{color:rgb(114, 255, 7) }
+          100%{color:  rgb(255, 238, 7) }
+      }
+      
+    .guy-image{
+        
+        justify-content: center;
+        align-items: center;
+        
+        margin-right: auto;
+        margin-top: 2vmin;
+        width: 100px;
+        height: 400px;
+       
+    }
+    .guy-image img {
+        align-items: center;
+        width: 50vmin; /* Adjust the width as needed */
+        height:50vmin; /* This ensures the aspect ratio is maintained */
+    }
+    
+    .text h2{
+        text-align: center;
+    }
+    .text{
+        
+        margin-left:7%;
+        margin-right: 0;
+
+    }
+    
+    
+    .name{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: auto;
+        overflow: hidden; /* Hide the overflowing text */
+        color: rgb(247, 0, 0);
+        margin-top: 74vmin;
+        margin-left: 10vmin;
+        background-color: black;
+    }
+        
+    
+
+        
+        
+    .name p {
+        
+        font-size: 5vmin;
+        font-weight: 10;
+        margin-top:1vmin ;
+        margin-left: 1vmin;
+        margin-right: 0px;
+       
+        white-space: nowrap; /* Prevent line breaks */
+        overflow: hidden; /* Hide overflowing text */
+        border-right: 1px solid rgb(196, 0, 0); /* Add a blinking cursor */
+        width: 0; /* Start with zero width */
+        animation: typing 2s steps(100) forwards; /* Typing animation */
+      }
+      
+      /* Style the role (e.g., "Student") */
+      .name span {
+        font-size: 5vmin;
+        font-style:italic;
+        color: red;
+        animation: color-change 20s infinite;
+
+      }
+
+      @keyframes color-change{
+        0% {color:rgb(255, 7, 7)  }
+        10%{color:rgb(255, 7, 127) }
+        20%{color: rgb(233, 23, 188) }
+        30%{color:rgb(210, 7, 255) }
+        40%{color:rgb(93, 0, 255) }
+        50%{color:rgb(32, 7, 255) }
+        60%{color: rgb(0, 164, 253)  }
+        70%{color:rgb(7, 255, 251) }
+        80%{color:rgb(7, 255, 52) }
+        90%{color:rgb(114, 255, 7) }
+        100%{color:  rgb(255, 238,7)}
+}
+      
+      /* Typing animation */
+      @keyframes typing {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 64vmin; /* Full width */
+        }
+      }
+      
+
+
+
+
+
+
+
+    .down1{
+        
+        margin-left: 48.9vmin;
+        
+    }
+}
+
+ /**MediaQuery3TV**/
+ @media screen and (min-width: 1700px)  {
+   
+    header{
+        background-color: rgb(138, 13, 13);
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+    
+    } 
+    
+    
+    .navbar{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .navbar h1{
+        font-size: 7vmin;
+        color: white;
+        margin-top: 0vmin;
+    
+    }
+    .navbar h1 span{
+        color: greenyellow;
+    }
+    .res{
+        color: white;
+    }
+    .navbar ul li a {
+        list-style: none;
+        text-decoration: none ;
+        font-size: 3vmin;
+        margin-top: 120px;
+    
+    }
+        
+    
+    .navbar ul {
+        display: flex;
+        align-items: center;
+    
+        margin-left: 120vmin;
+        margin-top: 5vmin;
+    
+        
+    }
+    .navbar ul li {
+        margin-left: 6vmin;
+    }
+    .navbar ul li:hover{
+        transform: scale(1.1);
+    }
+    .content {
+        margin: 1px;
+        height: 40px;
+        
+        display: flex;
+        padding-top: 3vmin;
+      }
+    
+    .text{
+        color: white;
+        font-size: 10vmin;
+        margin-left: 11.2vmin;
+        margin-top: 12.vmin;
+    
+    }
+    .text h2 span{
+        color: aquamarine;
+    }
+    .content .text span {
+        color: red;
+        animation: color-change 20s infinite;
+      }
+      @keyframes color-change{
+          0% {color:rgb(255, 7, 7)  }
+          10%{color:rgb(255, 7, 127) }
+          20%{color: rgb(233, 23, 188) }
+          30%{color:rgb(210, 7, 255) }
+          40%{color:rgb(93, 0, 255) }
+          50%{color:rgb(32, 7, 255) }
+          60%{color: rgb(0, 164, 253)  }
+          70%{color:rgb(7, 255, 251) }
+          80%{color:rgb(7, 255, 52) }
+          90%{color:rgb(114, 255, 7) }
+          100%{color:  rgb(255, 238, 7) }
+      }
+      
+    .guy-image{
+        margin-left: 26vmin;
+        font-size: 10vmin;
+    }
+    .guy-image img {
+        
+        width: 800px; 
+        height: auto;
+    }
+    /* Style the container */
+    .name {
+        text-align: center;
+        margin-right: 400px;
+        overflow: hidden; /* Hide the overflowing text */
+        color: antiquewhite;
+        
+        
+        
+      }
+      
+      /* Style the name */
+      .name p {
+        font-size: 100px;
+        font-weight: bold;
+        margin-top:545px ;
+        margin-left: 1px;
+        margin-right: 000px;
+       
+        white-space: nowrap; /* Prevent line breaks */
+        overflow: hidden; /* Hide overflowing text */
+        border-right: 2px solid #c71212; /* Add a blinking cursor */
+        width: 0; /* Start with zero width */
+        animation: typing 1s steps(10) forwards; /* Typing animation */
+      }
+      
+      /* Style the role (e.g., "Student") */
+      .name span {
+        font-size: 100px;
+        font-style: italic;
+        color: #de2020;
+      }
+      
+      /* Typing animation */
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 75%; /* Full width */
+        }
+      }
+      
+    .proj{
+        color: aliceblue;
+        font-size: 3.5vmin;
+        margin-top: 2vmin;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .down1{
+        margin-top: 1vmin;
+        width: 4vmin;
+        height: 2vmin;
+        
+    
+        
+        margin-left: 94vmin;
+        cursor: pointer;
+    }
+    .down1:hover{
+        transform: scale(1.5);
+        
+    }
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
