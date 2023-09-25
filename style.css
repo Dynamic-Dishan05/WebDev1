@@ -414,6 +414,25 @@ header{
         
     }
 }
+/* Mediaqueryformin800px */
+@media screen and (min-width:800px){
+    .navbar h1{
+        margin-left: 40vmin;
+
+    }
+
+    @keyframes typing {
+        from {
+          width: 20%;
+        }
+        to {
+          width: 80%; /* Full width */
+        }
+      }
+
+
+}
+
 
  /**MediaQuery3TV**/
  @media screen and (min-width: 1700px)  {
