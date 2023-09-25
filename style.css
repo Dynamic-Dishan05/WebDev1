@@ -419,7 +419,7 @@ header{
 
 
 /* Mediaqueryformin800px */
-@media screen and (min-width:0) and (max-width:800px)  {
+@media screen  and (max-width:800px)  {
     .navbar h1{
         margin-left: 90vmin;
 
