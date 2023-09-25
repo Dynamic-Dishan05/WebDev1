@@ -156,7 +156,7 @@ header{
 /* Style the container */
 .name {
     text-align: center;
-    margin-right: 0px;
+    margin-right: 0vmin;
     margin-left: 1vmin;
     overflow: hidden; /* Hide the overflowing text */
     color: antiquewhite;
@@ -190,10 +190,10 @@ header{
   /* Typing animation */
   @keyframes typing {
     from {
-      width: 20%;
+      width: 0.3%;
     }
     to {
-      width: 43.25%; /* Full width */
+      width: 29%; /* Full width */
     }
   }
   
@@ -415,10 +415,13 @@ header{
         
     }
 }
+
+
+
 /* Mediaqueryformin800px */
-@media screen and (min-width:800px){
-   .navbar h1{
-        margin-left: 70vmin;
+@media screen and (max-width:800px){
+    .navbar h1{
+        margin-left: vmin;
 
     }
 
@@ -431,11 +434,19 @@ header{
         }
       }
       .proj{
-        margin-left:80vmin;
+        margin-left:vmin;
       }
 
 
 }
+
+
+
+
+
+
+
+
 
 
  /**MediaQuery3TV**/
