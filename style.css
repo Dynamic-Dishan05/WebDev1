@@ -418,27 +418,7 @@ header{
 
 
 
-/* Mediaqueryformin800px */
-@media screen  and (max-width:800px)  {
-    .navbar h1{
-        margin-left: 90vmin;
 
-    }
-
-    @keyframes typing {
-        from {
-          width: 20%;
-        }
-        to {
-          width: 95%; /* Full width */
-        }
-      }
-      .proj{
-        margin-left: 85vmin;
-      }
-
-
-}
 
 
 
